@@ -7,8 +7,8 @@ public class Hello {
     System.out.println("2 * 10 = " + multiply());	  
   }
 
-  public static int add() {
-    return 2 + 2;
+  public static int add(int a, int b) {
+    return a + b;
   }
 
   public static int subtract(int a, int b) {
